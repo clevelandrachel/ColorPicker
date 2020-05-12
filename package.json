@@ -1,0 +1,9 @@
+{
+  "name": "ub7kkg.run",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "lit-element": "2.3.1",
+    "@webcomponents/webcomponentsjs": "2.4.3"
+  }
+}
