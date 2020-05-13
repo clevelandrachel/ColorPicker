@@ -1,13 +1,13 @@
 import { LitElement, html } from 'lit-element';
 
-class SimpleGreeting extends LitElement {
+class ColorPicker extends LitElement {
   static get properties() {
     return { name: { type: String } };
   }
 
   constructor() {
     super();
-    this.name = 'World';
+    this.name = 'Color';
   }
   
   render() {
@@ -15,4 +15,4 @@ class SimpleGreeting extends LitElement {
   }
 }
 
-customElements.define('simple-greeting', SimpleGreeting);
+customElements.define('color-picker', ColorPicker);
