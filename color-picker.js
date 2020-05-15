@@ -15,16 +15,12 @@ import { Grid, Typography, Button } from '@material-ui/core';
   };
 
  render() {
-    return (
-<> 
+
         <TextField
           label="Hex">
           <Input value={this.state.currentHex} onChange={this.onChange} />
         </TextField>
         {this.render()}
-       </> 
-    
-  
 
 /* <ColorSlider
         hue={color.hue}
@@ -37,9 +33,7 @@ import { Grid, Typography, Button } from '@material-ui/core';
         <h1>{color.toRgbString()}</h1>
       </div> */
  
-    )
  }
-
 
    render() {
     if (this.state.currentHex) {
@@ -51,7 +45,6 @@ import { Grid, Typography, Button } from '@material-ui/core';
     }
   }
 } 
- 
   
 //Register componet 
-customElements.define('color-picker', ColorPicker);
+customElement('color-picker', ColorPicker);
