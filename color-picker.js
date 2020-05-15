@@ -15,6 +15,7 @@ import { Grid, Typography, Button } from '@material-ui/core';
   };
 
  render() {
+    return (
 <> 
         <TextField
           label="Hex">
@@ -36,7 +37,7 @@ import { Grid, Typography, Button } from '@material-ui/core';
         <h1>{color.toRgbString()}</h1>
       </div> */
  
-
+    )
  }
 
 
